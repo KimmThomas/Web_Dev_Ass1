@@ -1,46 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-       <meta charset="UTF-8">
-       <title>Navigation Menu</title>
-       <style>
-              /* CSS for styling the navigation menu */
-              nav {
+<!DOCTYPE html>                    <!--Specifys the document type-->                                     
+<html lang="en">                   <!--Defines the root element of the HTML document and specifies the language as English (en)-->
+<head>                             <!--Contains meta-information about the document, such as character encoding, compatibility settings for Internet Explorer, viewport settings, and the page title-->
+       <meta charset="UTF-8">       <!--Specifies the character encoding of the document as UTF-8-->
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!--Sets the compatibility mode for Internet Explorer to the latest version-->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Sets the viewport width to the device width and initial scale to 1.0 for responsive design-->
+       <title>Navigation Menu</title>   <!--Sets the title of the document, which appears in the browser tab-->
+       <style>                            /*Contains CSS(Cascading Style Sheets) code for styling the navigation menu, section headings, and descriptions*/
+              nav {                             /*Defines a navigation menu*/
                      background-color: rgb(0, 44, 0);
                      color: white;
                      text-align: center;
                      padding: 10px 0;
               }
 
-              ul {
+              ul {                               /*Defines an unordered list for the navigation menu items.*/
                      list-style-type: lower-greek;
                      margin: 0;
                      padding: 0;
               }
 
-              li {
+              li {                               /*Defines a list item for each navigation menu item*/
                      display: inline-block;
                      margin: 20px;
               }
 
-              a {
-                     color: brown;
+              a {                                /*Defines a hyperlink for each navigation menu item*/
+                     color: lightgreen;
                      text-decoration: none;
                      font-size: large;
               }
 
-              a:hover {
+              a:hover {                         
                      text-decoration: underline;
               }
               /* Additional styles for section headings and descriptions*/
               h2 {
                      margin-top: 25px;
-                     color: rosybrown;
+                     color: black;
                      font-size: larger;
               }
               p {
-                     color: sandybrown;
-              }
+                     color: black;
+                            }
               .projects {
                      text-align: left;
                      margin-top: 10px;
@@ -50,7 +51,7 @@
               }
        </style>
 </head>
-<body>
+<body>       <!-- contains the visible content of the document, such as headings (<h1>), paragraphs (<p>), images, links, etc-->
        <nav>
               <ul>
                      <li><a href="#home">Home</a></li>
@@ -58,9 +59,9 @@
                      <li><a href="#projects">Projects</a></li>
               </ul>
        </nav>
-       <section id="home">
-              <h2>Welcome to our Platform</h2>
-              <p>We are here to make <strong>your career</strong> simple and fun</p>
+       <section id="home">                        <!--Defines sections of the document with unique IDs for navigation (#home, #about, #projects-->
+              <h2>Welcome to our Platform</h2>    <!--Defines subheadings for each section-->
+              <p>We are here to make <strong>your career</strong> simple and fun</p>   <!--Defines paragraphs of text for each section-->
        </section>
 
        <section id="about">
